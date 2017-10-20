@@ -18,7 +18,7 @@
       "value": "GEN-PASSWORD"
     },
     "customScriptFilePath": {
-      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-discover-private-ip-dynamically/privateip.sh"
+      "value": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-discover-private-ip-dynamically/privateip.sh"
     },
     "customScriptCommandToExecute": {
       "value": "sh privateip.sh "

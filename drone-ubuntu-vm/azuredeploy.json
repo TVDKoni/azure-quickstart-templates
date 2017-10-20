@@ -198,7 +198,7 @@
 		"autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/drone-ubuntu-vm/install_drone.sh"
+            "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/drone-ubuntu-vm/install_drone.sh"
           ],
           "commandToExecute": "[concat('sh install_drone.sh ', parameters('githubClientKey'), ' ', parameters('githubSecret'))]"
         }

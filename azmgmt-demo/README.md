@@ -4,7 +4,7 @@
 The mgmt. services will be fully integrated, and you will have VM workloads (Windows or Linux) which will be attached - and fully managed as part of the deployment.
 **Please note that this sample is for demo purposes only**
 
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fazmgmt-demo%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fazmgmt-demo%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -50,7 +50,7 @@ $userName = '' # username for the VM(s)
 $vmNamePrefix = '' # Specify the prefix for the virtual machine(s) that will be created
 $instanceCount = '' # You can create 1-10 VMs
 $deploymentName = '' # Specify the name of the main ARM template deployment job
-$templateuri = 'https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/azmgmt-demo/azuredeploy.json'
+$templateuri = 'https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/azmgmt-demo/azuredeploy.json'
 
 # Deploy template
 

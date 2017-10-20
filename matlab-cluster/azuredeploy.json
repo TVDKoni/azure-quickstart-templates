@@ -252,7 +252,7 @@
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('networkSettings').virtualNetworkName)]",
     "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('networkSettings').subnet.dse.name)]",
     "sshKeyPath": "[concat('/home/',parameters('adminUsername'),'/.ssh/authorized_keys')]",
-    "scriptUri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/matlab-cluster/",
+    "scriptUri": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/matlab-cluster/",
     "scriptName": "[concat(variables('scriptUri'), 'scripts/private_worker_vm_setup.ps1')]",
     "clientScriptName": "[concat(variables('scriptUri'), 'scripts/private_client_vm_setup.ps1')]",
     "installationCLI": "powershell -ExecutionPolicy Unrestricted -file private_worker_vm_setup.ps1 shim",

@@ -2,8 +2,8 @@
 
 This Microsoft Azure template deploys a single Ethereum client with a private chain for development and testing.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fgo-ethereum-on-ubuntu%2Fazuredeploy.json)
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fgo-ethereum-on-ubuntu%2Fazuredeploy.json" target="_blank">
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fgo-ethereum-on-ubuntu%2Fazuredeploy.json)
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fgo-ethereum-on-ubuntu%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -18,7 +18,7 @@ Once your deployment is complete you will have a sandbox environment with:
 ** Note this private key is exposed on a public GitHub repository. It should _never_ be used on a public network. If you use this key for anything besides sandbox testing purposes, your funds will be lost!
 
 
-![Ethereum-Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/go-ethereum-on-ubuntu/images/eth.jpg)
+![Ethereum-Azure](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/go-ethereum-on-ubuntu/images/eth.jpg)
 
 # Template Parameters
 When you launch the installation of the cluster, you need to specify the following parameters:

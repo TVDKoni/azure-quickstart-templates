@@ -254,7 +254,7 @@
     },
     "addressPrefix":"[parameters('addressPrefix')]",
     "subnetPrefix":"[parameters('subnetPrefix')]",
-    "scriptsUri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/cloudera-director-on-centos",
+    "scriptsUri": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/cloudera-director-on-centos",
     "share-resourcesUri": "[concat(variables('scriptsUri'), '/shared-resources-', parameters('vnetNewOrExisting'), '-vnet.json')]",
     "vnetUri": "[concat(variables('scriptsUri'), '/update-', parameters('vnetNewOrExisting'), '-vnet-dns.json')]",
     "networkRestartUri": "[concat(variables('scriptsUri'), '/network-restart-', parameters('vnetNewOrExisting'), '-vnet.json')]",

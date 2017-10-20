@@ -1,6 +1,6 @@
 # Azure Service Bus Monitoring
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fazure-quickstart-templates%2Fmaster%2Foms-servicebus-solution%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Foms-servicebus-solution%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
@@ -105,7 +105,7 @@ Once you have completed the pre-reqs, you can click on the deploy button below
 4. Enter an unique jobID (use PowerShell's New-Guid command to generate one)
 5. Accept the terms and conditions and click on Purchase
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fazure-quickstart-templates%2Fmaster%2Foms-servicebus-solution%2Fnestedtemplates%2FaddMultipleSubscriptions.json) 
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Foms-servicebus-solution%2Fnestedtemplates%2FaddMultipleSubscriptions.json) 
 
 
 Once deployed you should start to see data from your additional subscriptions flowing into your workspace.

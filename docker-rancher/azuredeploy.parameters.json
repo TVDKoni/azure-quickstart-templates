@@ -24,7 +24,7 @@
       "value": "Server"
     },
     "templateBase": {
-      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/"
+      "value": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/"
     }
   }
 }

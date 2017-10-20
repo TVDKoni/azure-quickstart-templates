@@ -194,7 +194,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/postgresql-standalone-server-ubuntu/install_postgresql.sh"
+            "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/postgresql-standalone-server-ubuntu/install_postgresql.sh"
           ],
           "commandToExecute": "bash install_postgresql.sh"
         }

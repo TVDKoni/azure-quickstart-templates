@@ -30,7 +30,7 @@
 			"value": "24b18f62-aa2c-4528-ac10-1e3602eb4053"
 		},
 		"baseUri": {
-			"value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/vod-aspera-wowza-azuremediaservices/"
+			"value": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/vod-aspera-wowza-azuremediaservices/"
 		}
 	}
 }

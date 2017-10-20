@@ -1,9 +1,9 @@
 # Azure Logic Apps - B2B Disaster Recovery replication
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-logic-app-b2b-disaster-recovery-replication%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2F201-logic-app-b2b-disaster-recovery-replication%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-logic-app-b2b-disaster-recovery-replication%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2F201-logic-app-b2b-disaster-recovery-replication%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -20,14 +20,14 @@ You need to provide the Integration Account Names for the prerequisite primary a
 ## Usage
 
 Once the deployment is completed, you should see the following resources in the resource group blade in the Azure Portal. NOTE that the secondary integration account is not deployed as part of this template.
-![Image of Azure resources](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-logic-app-b2b-disaster-recovery-replication/images/azure-resources.png "Azure resources")
+![Image of Azure resources](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-logic-app-b2b-disaster-recovery-replication/images/azure-resources.png "Azure resources")
 
 ### X12/Edifact DR Logic App ###
 - In order for control numbers to be replicated, X12/Edifact encode and/or decode activity must happen on the primary site Logic App which X12/Edifact action uses the primary Integration Account. Send a test message to your pre-requisite Logic App.
 - The replication Logic Apps will trigger every 1 minute by default. If the test message you sent was less than a minute ago, you may click 'Run Trigger' 'When_a_control_number_is_...' to generate an immediate run. The logic app run will contain the replication of all the control numbers that was modified by the X12/Edifact Encode/Decode operations in the 1 minute window since previous trigger run.
-![Image of History for Control Number replication Logic App](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-logic-app-b2b-disaster-recovery-replication/images/cn-replication-history.png "History for Control Number replication Logic App")
+![Image of History for Control Number replication Logic App](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-logic-app-b2b-disaster-recovery-replication/images/cn-replication-history.png "History for Control Number replication Logic App")
 - You can look into the run history and input/output for each action for these logic apps for replication results.
-![Image of Run details for Control Number replication Logic App](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-logic-app-b2b-disaster-recovery-replication/images/cn-run-details.png "Run details for Control Number replication Logic App")
+![Image of Run details for Control Number replication Logic App](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-logic-app-b2b-disaster-recovery-replication/images/cn-run-details.png "Run details for Control Number replication Logic App")
 - To perform a disaster recovery:
   - Disable the X12/Edifact Encode-Decode Logic Apps on the primary site and the replication Logic Apps for Generated and Received control numbers.
   - Use the Azure PowerShell cmdlet Get-AzureRmIntegrationAccountGeneratedIcn (Associated with Encode Actions) and Set-AzureRmIntegrationAccountGeneratedIcn (Associated with Decode Actions) to increment the Interchange Control Number for each of your sent agreements on the secondary Integration Account. This change may take up to 15 seconds to take effect.

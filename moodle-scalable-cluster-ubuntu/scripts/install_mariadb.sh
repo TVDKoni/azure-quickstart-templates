@@ -147,7 +147,7 @@ fi
 mv ~/cluster.cnf /etc/mysql/conf.d/
 
 # Create the raid disk 
-wget https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh
+wget https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/shared_scripts/ubuntu/vm-disk-utils-0.1.sh
 bash vm-disk-utils-0.1.sh -s
 mkdir /datadisks/disk1/data
 cp -R -p /var/lib/mysql /datadisks/disk1/data/

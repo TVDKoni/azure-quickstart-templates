@@ -1,10 +1,10 @@
 # NetApp ONTAP Cloud on Azure with SQL 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fnetapp-ontap-sql%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fnetapp-ontap-sql%2Fazuredeploy.json" target="_blank">
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fnetapp-ontap-sql%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fnetapp-ontap-sql%2Fazuredeploy.json" target="_blank">
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a> 
 <br><br>
 
@@ -47,7 +47,7 @@ This template will deploy:
 -	One Windows Server 2012 R2 VM.
 -	One SQL Server 2014 SP2 Enterprise on Windows Server 2012 R2 VM.
 -	One NetApp ONTAP Cloud VM
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/netapp-ontap-sql/Images/netapp-architecture.png"/>
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/netapp-ontap-sql/Images/netapp-architecture.png"/>
 
 ## Licenses and Costs 
 

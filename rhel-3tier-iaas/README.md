@@ -1,10 +1,10 @@
 # Red Hat Linux 3-tier IaaS Solution on Azure 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Frhel-3tier-iaas%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Frhel-3tier-iaas%2Fazuredeploy.json" target="_blank">
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Frhel-3tier-iaas%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
+<a href="http://armviz.io/#/?load=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Frhel-3tier-iaas%2Fazuredeploy.json" target="_blank">
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a> 
 <br> <br>
 <!-- TOC -->
@@ -37,7 +37,7 @@ This template will deploy:
 - One Jump VM to faclitate ssh access to all other tier VMs.
 - Multiple Red Hat Enterprise Linux VMs for each tier as per parameter value specified during deployment. 
 
-![Deployment Solution Architecture](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/rhel-3tier-iaas/images/architecture.png?raw=true)
+![Deployment Solution Architecture](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/rhel-3tier-iaas/images/architecture.png?raw=true)
 
 ## Licenses and Costs 
 

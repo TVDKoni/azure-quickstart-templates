@@ -137,7 +137,7 @@
     "osImageOffer": "CentOS",
     "osVersion": "7.1",
     "apiVersion": "2015-06-15",
-    "artifactsLocation": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/spark-and-cassandra-on-centos/CustomScripts",
+    "artifactsLocation": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/spark-and-cassandra-on-centos/CustomScripts",
     "artifactsLocationSasToken": "?key=change_me",
     "vnetSparkPrefix": "10.0.0.0/16",
     "vnetSparkSubnet1Name": "Subnet-Master",

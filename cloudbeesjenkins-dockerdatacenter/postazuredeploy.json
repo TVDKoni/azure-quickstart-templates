@@ -40,7 +40,7 @@
     },  
     "baseUrl": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/cloudbeesjenkins-dockerdatacenter",
+      "defaultValue": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/cloudbeesjenkins-dockerdatacenter",
       "metadata": {
         "description": "Base URL for Artifacts"
       }

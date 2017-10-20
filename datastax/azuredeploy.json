@@ -57,7 +57,7 @@
     }
   },
   "variables": {
-    "baseUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/datastax",
+    "baseUrl": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/datastax",
     "templateUrl": "[concat(variables('baseUrl'), '/nested/')]",
     "extensionUrl": "[concat(variables('baseUrl'), '/scripts/')]",
     "nodesTemplateUrl": "[concat(variables('templateUrl'), 'nodes.json')]",

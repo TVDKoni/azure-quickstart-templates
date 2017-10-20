@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "artifactsBaseUrl": {
-      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/intel-lustre-clients-vmss-centos"
+      "value": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/intel-lustre-clients-vmss-centos"
     },
     "adminUsername": {
       "value": "azureuser"

@@ -119,7 +119,7 @@
     "dnsServerPrivateIp": "10.0.0.8",
     "subnet-id": "[concat(resourceId('Microsoft.Network/virtualNetworks',parameters('existingVnet')),'/subnets/',parameters('existingSubnet'))]",
     "publicIpRef": "publicIp",
-    "assetLocation": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/rds-deployment",
+    "assetLocation": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/rds-deployment",
     "apiVersion": "2015-06-15",
     "PublicIPLocation": "[concat(parameters('dnsLabelPrefix'),'.','[resourceGroup().location]','.cloudapp.azure.com')]"
   },
@@ -383,7 +383,7 @@
             "autoUpgradeMinorVersion": true,
             "settings": {
               "fileUris": [
-                "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/rds-deployment-ha-gateway/Scripts/WebAndGwFarmAdd_PostConfig1.1.ps1"
+                "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/rds-deployment-ha-gateway/Scripts/WebAndGwFarmAdd_PostConfig1.1.ps1"
               ]
             },
             "protectedSettings": {

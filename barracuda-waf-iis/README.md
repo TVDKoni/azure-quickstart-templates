@@ -1,10 +1,10 @@
 # Barracuda WAF on Azure 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fbarracuda-waf-iis%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fbarracuda-waf-iis%2Fazuredeploy.json" target="_blank">
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fbarracuda-waf-iis%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fbarracuda-waf-iis%2Fazuredeploy.json" target="_blank">
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a> 
 <br><br>
 
@@ -40,7 +40,7 @@ This template will deploy:
 -	Two Windows Server 2012 R2 VMs
 -	Automated deployment of IIS in Windows VM’s
 
-![Deployment Solution Architecture](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/barracuda-waf-iis/images/barracuda-architecture.png?raw=true)
+![Deployment Solution Architecture](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/barracuda-waf-iis/images/barracuda-architecture.png?raw=true)
 
 ## Licenses and Costs 
 
@@ -55,7 +55,7 @@ Azure Subscription with specified payment method (Barracuda WAF is a market plac
 Build your Barracuda WAF environment on Azure in a few simple steps:  
 - Launch the Template by click on Deploy to Azure button.  
 - Fill in all the required parameter values. Accept the terms and condition and click on Purchase. 
-- Follow the post deployment configuration document [here](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/barracuda-waf-iis/images/barracuda-waf-post-deployment-configuration-guide.pdf) for further configuration. 
+- Follow the post deployment configuration document [here](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/barracuda-waf-iis/images/barracuda-waf-post-deployment-configuration-guide.pdf) for further configuration. 
 
 ## Deployment Time  
 

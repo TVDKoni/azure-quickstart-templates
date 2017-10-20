@@ -231,7 +231,7 @@ First, define two standard parameters:
           "metadata": {
               "description": "The base URI where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
           },
-          "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vm-custom-script-windows/"
+          "defaultValue": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-vm-custom-script-windows/"
       },
       "_artifactsLocationSasToken": {
           "type": "securestring",
@@ -287,7 +287,7 @@ When authoring a template that references another sample, define a complex objec
 ```
 "variables": {
   "template": {
-    "base": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-create-availability-set",
+    "base": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/101-create-availability-set",
     "shared": "nestedtemplates/sharedresources.json"
   }
 },

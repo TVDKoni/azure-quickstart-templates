@@ -1,10 +1,10 @@
 # Ansible Tower on Azure 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fansible-tower-rhel%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fansible-tower-rhel%2Fazuredeploy.json" target="_blank">
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fansible-tower-rhel%2Fazuredeploy.json" target="_blank">
-<img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fansible-tower-rhel%2Fazuredeploy.json" target="_blank">
+<img src="https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a> 
 <br> <br>
 
@@ -43,7 +43,7 @@ This template will deploy:
 -	Installation and configuration of Ansible Tower Server and Clients
 
 
-![Deployment Solution Architecture](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/ansible-tower-rhel/images/ansible-architecture.png?raw=true)
+![Deployment Solution Architecture](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/ansible-tower-rhel/images/ansible-architecture.png?raw=true)
 
 ## Licenses and Costs 
 
@@ -64,7 +64,7 @@ Build your Ansible Tower environment on Azure in a few simple steps:
 - Login with username as ‘admin’ and password specified in parameters during deployment. 
 - Request a trial Ansible license or provide your existing Ansible license file. You should get license file within 3-5 minutes on email after requesting a trial.
 - You will now have access to working Ansible Tower Server.
-- Follow the post deployment configuration document [here](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/ansible-tower-rhel/images/ansibletower-postdeployment-configuration-guide.pdf) to learn about further configuration. 
+- Follow the post deployment configuration document [here](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/ansible-tower-rhel/images/ansibletower-postdeployment-configuration-guide.pdf) to learn about further configuration. 
 
 ## Deployment Time 
 

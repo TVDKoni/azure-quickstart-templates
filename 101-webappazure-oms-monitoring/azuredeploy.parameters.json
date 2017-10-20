@@ -15,7 +15,7 @@
       "value": "East US 2"
     },
     "_assetLocation": {
-      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-webappazure-oms-monitoring"
+      "value": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/101-webappazure-oms-monitoring"
     }
   }
 }

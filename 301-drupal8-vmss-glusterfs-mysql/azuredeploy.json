@@ -154,14 +154,14 @@
     },
     "glusterTemplateLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/gluster-file-system/",
+      "defaultValue": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/gluster-file-system/",
       "metadata": {
         "description": "file location for gluster template"
       }
     },
     "templateLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/301-drupal8-vmss-glusterfs-mysql",
+      "defaultValue": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/301-drupal8-vmss-glusterfs-mysql",
       "metadata": {
         "description": "template file location",
         "artifactsBaseUrl": "Base URL of the Publisher Template gallery package"
@@ -236,7 +236,7 @@
     "mysqlsshNatRuleFrontEndPort1": 64002,
     "mySqlSubnetName": "dbsubnet",
     "mySqlSubnetPrefix": "10.1.1.0/24",
-    "mysqlTemplateLocation": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mysql-replication/",
+    "mysqlTemplateLocation": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/mysql-replication/",
     "mySqlVnetAddressPrefix": "10.1.0.0/16",
     "mySqlVnetName": "dbvnet",
     "namingInfix": "[toLower(substring(concat(parameters('vmssName'), uniqueString(resourceGroup().id)), 0, 9))]",
@@ -516,7 +516,7 @@
             "value": "[variables('glusterSubnetPrefix')]"
           },
           "customScriptFilePath": {
-            "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/gluster-file-system/azuregfs.sh"
+            "value": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/gluster-file-system/azuregfs.sh"
           },
           "customScriptCommandToExecute": {
             "value": "bash azuregfs.sh"

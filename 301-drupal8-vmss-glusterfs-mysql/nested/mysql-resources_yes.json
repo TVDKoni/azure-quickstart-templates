@@ -186,7 +186,7 @@
     },
     "artifactsPath": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mysql-replication",
+      "defaultValue": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/mysql-replication",
       "metadata": {
         "description": "template and script file location",
         "artifactsBaseUrl": "Base URL of the Publisher Template gallery package"
@@ -214,7 +214,7 @@
     }
   },
   "variables": {
-    "mysqlTemplateLocation": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mysql-replication/",
+    "mysqlTemplateLocation": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/mysql-replication/",
     "templateAPIVersion": "2015-01-01"
   },
   "resources": [

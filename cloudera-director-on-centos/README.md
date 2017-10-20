@@ -4,7 +4,7 @@ Cloudera Director provides a simple way to deploy and manage the lifecycle of Cl
 For more details regarding this template, please see the [Overview](#overview) section below.
 
 # By clicking "Deploy to Azure" you agree to the Terms and Conditions below.
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fcloudera-director-on-centos%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fcloudera-director-on-centos%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png" />
 </a>
 

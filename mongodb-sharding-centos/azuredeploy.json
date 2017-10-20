@@ -172,7 +172,7 @@
     }
   },
   "variables": {
-    "baseUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mongodb-sharding-centos/",
+    "baseUrl": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/mongodb-sharding-centos/",
     "baseChinaUrl": "http://msmirrors.blob.core.chinacloudapi.cn/mongodb/mongodb-sharding-centos/",
     "environmentAzureCloud": {
       "serviceEndPoint": "core.windows.net",

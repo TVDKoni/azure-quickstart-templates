@@ -269,7 +269,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/vsts-tomcat-redhat-vm/scripts/tomcat-setup-redhat.sh"
+            "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/vsts-tomcat-redhat-vm/scripts/tomcat-setup-redhat.sh"
           ],
           "commandToExecute": "[concat('sh tomcat-setup-redhat.sh',' ',parameters('adminUsername'),' ',parameters('tomcatUserName'),' ',parameters('tomcatPassword'),' ',parameters('sshPassPhrase'))]"
         }

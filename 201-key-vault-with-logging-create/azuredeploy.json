@@ -80,7 +80,7 @@
     },
     "variables": {
         "template": {
-            "base": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-key-vault-with-logging-create/",
+            "base": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-key-vault-with-logging-create/",
             "protectWithLocks": "[concat('nestedtemplates/protectwithlocks', parameters('protectWithLocks'), '.json')]"
         },
         "uniqueString": "[uniqueString(subscription().id, resourceGroup().id)]",

@@ -1,7 +1,7 @@
 # Azure OMS Log Analytics Solution for Cloud Foundry
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2F%2Fazuredeploy.json) 
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fazuredeploy.json" target="_blank">
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2F%2Fazuredeploy.json) 
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -24,7 +24,7 @@ Follow these instructions to deploy the template:
 1. If you want to use an existing Log Analytics workspace, note the name, location and resource group name of the workspace from [Azure Portal](https://portal.azure.com).
     ![alt text](images/workspace.png "workspace")
 1. Click "Deploy to Azure", this will send you to the Azure Portal with some default values for the template parameters. 
-    [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fazuredeploy.json)
+    [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Foms-cloudfoundry-solution%2Fazuredeploy.json)
 1. Fill the parameters.
     ![alt text](images/deploy.png "deploy")
 	1. **Subscription**: Select the subscription where your existing workspace is located, or where you want to create a new workspace

@@ -1,9 +1,9 @@
 # Azure Logic Apps - AS2 Send Receive
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-logic-app-as2-send-receive%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2F201-logic-app-as2-send-receive%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-logic-app-as2-send-receive%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2F201-logic-app-as2-send-receive%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -18,14 +18,14 @@ You can click the "deploy to Azure" button at the beginning of this document or 
 
 Once the deployment is completed, you can perform below steps to test your Logic Apps:
 - Open the resource group blade in Azure Portal where you deployed all resources.
-![Image of Azure resources](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-logic-app-as2-send-receive/images/azure-resources.png "Azure resources"))
+![Image of Azure resources](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-logic-app-as2-send-receive/images/azure-resources.png "Azure resources"))
 - The FabrikamSales-AS2Send and Contoso-Receive Logic Apps demonstrate sync send receive scenario. Open the FabrikamSales-AS2Send Logic App blade and click on Run Trigger to run it.
-![Image of FabrikamSales-AS2Send Logic App](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-logic-app-as2-send-receive/images/fabrikamsales-as2send.png "Run FabrikamSales-AS2Send Logic App"))
+![Image of FabrikamSales-AS2Send Logic App](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-logic-app-as2-send-receive/images/fabrikamsales-as2send.png "Run FabrikamSales-AS2Send Logic App"))
 -- You can look into the run history and input/output for each action for these logic apps.
-![Image of Contoso-AS2Receive run history](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-logic-app-as2-send-receive/images/contoso-as2receive-runhistory.png "Contoso-AS2Receive run history"))
+![Image of Contoso-AS2Receive run history](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-logic-app-as2-send-receive/images/contoso-as2receive-runhistory.png "Contoso-AS2Receive run history"))
 - The FabrikamFinance-AS2Send and Contoso-Receive Logic Apps demonstrate async send receive scenario. Open the FabrikamFinance-AS2Send Logic App blade and click on Run Trigger to run it.
 -- The async MDN is received by the FabrikamFinance-AS2ReceiveMDN Logic App.
-![Image of FabrikamFinance-AS2ReceiveMDN run history](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-logic-app-as2-send-receive/images/fabrikamfinance-as2receivemdn-runhistory.png "FabrikamFinance-AS2ReceiveMDN run history"))
+![Image of FabrikamFinance-AS2ReceiveMDN run history](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/201-logic-app-as2-send-receive/images/fabrikamfinance-as2receivemdn-runhistory.png "FabrikamFinance-AS2ReceiveMDN run history"))
 -- Again, you can look into the run history and input/output for each action for these Logic Apps.
 
 ### Note: ###

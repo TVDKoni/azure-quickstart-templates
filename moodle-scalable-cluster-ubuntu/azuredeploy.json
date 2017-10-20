@@ -43,8 +43,8 @@
 		"rpfx": "[tolower(parameters('resourcesPrefix'))]",
 
 		"moodleCommon": {
-			"baseTemplateUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/moodle-scalable-cluster-ubuntu/nested/",
-			"scriptLocation":  "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/moodle-scalable-cluster-ubuntu/scripts/",
+			"baseTemplateUrl": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/moodle-scalable-cluster-ubuntu/nested/",
+			"scriptLocation":  "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/moodle-scalable-cluster-ubuntu/scripts/",
 
 			"computeApi":  	"2016-04-30-preview",
 

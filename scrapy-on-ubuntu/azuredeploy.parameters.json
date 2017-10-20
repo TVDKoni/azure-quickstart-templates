@@ -42,7 +42,7 @@
       "value": "myspider.py"
     },
     "spiderUri": {
-      "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/scrapy-on-ubuntu/myspider.py"
+      "value": "https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/scrapy-on-ubuntu/myspider.py"
     }
   }
 }

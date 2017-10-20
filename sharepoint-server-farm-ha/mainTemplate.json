@@ -227,7 +227,7 @@
             "description":"Base URL for Marketplace",
             "artifactsBaseUrl":""
          },
-         "defaultValue":"https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sharepoint-server-farm-ha"
+         "defaultValue":"https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/sharepoint-server-farm-ha"
       }
    },
    "variables":{

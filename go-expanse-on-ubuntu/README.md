@@ -2,8 +2,8 @@
 
 This Microsoft Azure template deploys a single Expanse client with a private chain for development and testing.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fgo-expanse-on-ubuntu%2Fazuredeploy.json)
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fgo-expanse-on-ubuntu%2Fazuredeploy.json" target="_blank">
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fgo-expanse-on-ubuntu%2Fazuredeploy.json)
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FTVDKoni%2Fazure-quickstart-templates%2Fmaster%2Fgo-expanse-on-ubuntu%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -13,7 +13,7 @@ Once your deployment is complete you will have a expanse environment with:
 
 2. A script to activate an Expanse node and begin interacting with the Expanse protocol.
 
-![Expanse-Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/go-expanse-on-ubuntu/images/exp.png)
+![Expanse-Azure](https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/go-expanse-on-ubuntu/images/exp.png)
 
 # Template Parameters
 When you launch the installation of the cluster, you need to specify the following parameters:

@@ -1,7 +1,7 @@
 # GlassFish on SUSE
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/glassfish-on-suse/azuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
-<a href="http://armviz.io/#/?load=https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/glassfish-on-suse/azuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/glassfish-on-suse/azuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<a href="http://armviz.io/#/?load=https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/glassfish-on-suse/azuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
@@ -58,14 +58,14 @@ CLI
   ```
    azure group create -n <ResourceGroupName> -l <Location>
 
-   azure group deployment create -f https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/glassfish-on-suse/azuredeploy.json -e <PathToParamtersFile> -g <ResourceGroupName> -n <DeploymentName>
+   azure group deployment create -f https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/glassfish-on-suse/azuredeploy.json -e <PathToParamtersFile> -g <ResourceGroupName> -n <DeploymentName>
   ```
   
 PowerShell
   ```
     New-AzureRMResourceGroup -Name <ResourceGroupName> -Location <Location>
 
-    New-AzureRmResourceGroupDeployment -Name <DeploymentName> -DeploymentDebugLogLevel All -ResourceGroupName <ResourceGroupName> - TemplateFile https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/glassfish-on-suse/azuredeploy.json -TemplateParameterFile <PathToParamtersFile>
+    New-AzureRmResourceGroupDeployment -Name <DeploymentName> -DeploymentDebugLogLevel All -ResourceGroupName <ResourceGroupName> - TemplateFile https://raw.githubusercontent.com/TVDKoni/azure-quickstart-templates/master/glassfish-on-suse/azuredeploy.json -TemplateParameterFile <PathToParamtersFile>
   ```
 
 ## Post-Deployment Operations
