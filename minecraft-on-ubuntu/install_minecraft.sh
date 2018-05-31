@@ -18,7 +18,7 @@ UUID_URL=https://api.mojang.com/users/profiles/minecraft/$1
 
 # screen scrape the server jar location from the Minecraft server download page
 SERVER_JAR_URL=`curl https://minecraft.net/en-us/download/server | grep server\.jar | cut -d '"' -f2`
-server_jar=`echo $SERVER_JAR_URL | cut -d '/' -f7`
+server_jar=`echo $SERVER_JAR_URL | cut -d '/' -f9`
 
 # add and update repos
 while ! echo y | apt-get install -y software-properties-common; do
