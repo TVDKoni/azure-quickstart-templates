@@ -17,8 +17,8 @@ minecraft_group=minecraft
 UUID_URL=https://api.mojang.com/users/profiles/minecraft/$1
 
 # screen scrape the server jar location from the Minecraft server download page
-SERVER_JAR_URL=`curl https://minecraft.net/en-us/download/server | grep server\.jar | cut -d '"' -f2`
-server_jar=`echo $SERVER_JAR_URL | cut -d '/' -f9`
+SERVER_JAR_URL=`curl https://minecraft.net/en-us/download/server | grep 'Download <a' | cut -d '"' -f2`
+server_jar=server.jar
 
 # add and update repos
 while ! echo y | apt-get install -y software-properties-common; do
@@ -39,18 +39,13 @@ done
 # Install Java8
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
 
-# Workaround for the 404 error (since 17. October 2017)
-workaroundDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-sudo bash $workaroundDir/java_workaround.sh
-#
-
 while ! echo y | apt-get install -y oracle-java8-installer; do
     sleep 10
     apt-get install -y oracle-java8-installer
 done
 
 # create user and install folder
-adduser --system --no-create-home --home /srv/minecraft-server $minecraft_user
+adduser --system --no-create-home --home $minecraft_server_path $minecraft_user
 addgroup --system $minecraft_group
 mkdir $minecraft_server_path
 cd $minecraft_server_path
